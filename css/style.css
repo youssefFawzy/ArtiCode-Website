@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #FDAC53;
+  color: #f08121;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2365,8 +2365,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #FDAC53;
-  border-color: #FDAC53;
+  background-color: #f08121;
+  border-color: #f08121;
 }
 
 .btn-primary:hover {
@@ -6094,7 +6094,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #FDAC53 !important;
+  background-color: #f08121 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9264,7 +9264,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #FDAC53 !important;
+  color: #f08121 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9508,7 +9508,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #FDAC53;
+  color: #f08121;
 }
 
 @media (max-width: 991.98px) {
@@ -9572,7 +9572,7 @@ h6,
 }
 
 .carousel-indicators .active {
-  background-color: #FDAC53;
+  background-color: #f08121;
 }
 
 @media (max-width: 991.98px) {
@@ -9652,7 +9652,7 @@ h6,
 
 .team-carousel .owl-dot.active,
 .testimonial-carousel .owl-dot.active {
-  background: #FDAC53;
+  background: #f08121;
 }
 
 .team-item .team-overlay {
@@ -9674,4 +9674,12 @@ h6,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.image {
+  scale: 7%;
+  border-radius: 0%;
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
 }
