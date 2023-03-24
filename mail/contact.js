@@ -12,7 +12,7 @@ $(function () {
             var message = $("textarea#message").val();
 
             $this = $("#sendMessageButton");
-            $this.prop("enable", true);
+            $this.prop("disabled", true);
 
             $.ajax({
                 url: "contact.php",
@@ -41,7 +41,7 @@ $(function () {
                     $('#success > .alert-danger').append($("<strong>").text("Sorry " + name + ", it seems that our mail server is not responding. Please try again later!"));
                     $('#success > .alert-danger').append('</div>');
                     $('#contactForm').trigger("reset");
-                },
+                },          
                 complete: function () {
                     setTimeout(function () {
                         $this.prop("disabled", false);
