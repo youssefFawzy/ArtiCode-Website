@@ -11,7 +11,7 @@ $(function () {
       var subject = $("input#subject").val();
       var message = $("textarea#message").val();
       $this = $("#sendMessageButton");
-      $this.prop("disabled", true);
+      $this.prop("enable", true);
       $.ajax({
         url: "contact.php",
         type: "POST",
