@@ -6094,13 +6094,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f08121 !important;
+  background-color: #dc1f26 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #fc9421 !important;
+  background-color: #dc1f26 !important;
 }
 
 .bg-secondary {
